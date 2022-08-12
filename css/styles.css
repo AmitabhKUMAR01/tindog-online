@@ -1,0 +1,203 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+/* ---------------------------------navbar---------------------------- */
+.navbar-bran {
+    padding-top: var(--bs-navbar-brand-padding-y);
+    padding-bottom: var(--bs-navbar-brand-padding-y);
+    margin-right: var(--bs-navbar-brand-margin-end);
+    font-size: 2.3rem;
+    font-weight: 200;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: var(--bs-navbar-brand-color);
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    text-shadow: 1px 3px 2px black;
+    white-space: nowrap;
+    
+}
+.navbar-bran:hover{
+    color: white;
+    text-shadow: 2px 5px 2px black;
+
+}
+.nav-item{
+    padding: 0 18px;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 100;
+}
+.nav-ul{
+    margin-left:300px ;
+    color: black;
+}
+
+/* ------------------------------end navbar------------------------- */
+    /* --------------------title--------------------------- */
+#title{
+    background-color: #ff4c68;
+    padding-left: 5rem;
+    
+}
+
+.main_heading{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    color: rgb(255, 255, 255);
+    line-height: 1.7;
+}
+.container-fluid{
+    padding: 3% 30rem;
+    padding-left: 5rem;
+}
+
+.img-dog{
+    width: 60%;
+    transform: rotate(25deg);
+    position: relative;
+    
+    left: 10%;
+    top: 10%;
+}
+
+.btn{
+    margin: 5% 3% 5% 0;
+}
+/* -----------------------------------------end title--------------------------- */
+/* -------------------------------features--------------------------------------- */
+#features{
+    text-align: center;
+    padding: 15%;
+    background-color: white;
+    position: relative;
+}
+#features h3{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+#features div{
+    padding: 5%;
+}
+#features p{
+    color:#8f8f8f;
+}
+ .icon{
+    padding-bottom: 2rem;
+    font-size: 3rem;
+    color:#ef8172;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.icon:hover{
+    color: #ff4c68;
+}
+
+/* #mid{
+    width: 80px;
+    height: 80px;
+} */
+/* -------------------------------end feature------------------------- */
+
+
+/* -----------------------------------Testimonials------------------------ */
+
+#testimonials{
+    
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+}
+#testimonials h2{
+    font-weight: bold;
+    line-height: 1.5;
+    font-size: 3rem;
+}
+#testimonials img{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+/* ----------------------------------end Testimonials------------------------------ */
+
+/* -----------------------------------start press------------------------------ */
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding: 1%;
+    padding-bottom: 3%;
+}
+#press img{
+    width: 15%;
+    margin: 20px 20px 20px 50px;
+}
+.carousel-item{
+    padding:7% 15%;
+}
+
+/* -------------------------------------end--------------------------------------- */
+/* -------------------------------princing---------------------------------- */
+
+#pricing{
+    padding: 100px;
+}
+.lst{
+    border: 1px solid rgba(102, 97, 97, 0.673);
+    box-shadow: 1px 2px 3px black;
+}
+.pricing-column{
+    padding: 3% 2%;
+}
+
+.plan{
+    text-align: center;
+}
+
+/* ------------------------- <!-- Call to Action -->------------------------------ */
+#cta{
+    text-align: center;
+    background-color: #ff4c68;
+}
+#cta h3{
+    font-size: 3rem;
+    padding: 5%;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+/* ----------------------------end  <!-- Call to Action -->------------------- */
+
+/* ----------------------------start footer-------------------------------- */
+#footer{
+    text-align: center;
+    padding: 5%;
+}
+#footer p{
+    color: #8f8f8f;
+    font-size: .8rem;
+}
+#footer i{
+    padding: 1rem;
+}
+/* -----------------------------------end footer-------------------------------- */
+/* -------------------------for mobile ------------------------*/
+
+
+@media (max-width:1000px){
+    .img-dog{
+        transform: rotate(0);
+        position: static;
+    }
+    #title{
+        font-size: 5rem;
+        text-align: center;
+    }
+    .main_heading{
+        font-size: 4.5rem;
+    }
+   
+    .dow{
+        font-size: 3rem;
+    }
+    .nav-link{
+        font-size: 2rem;
+    }
+}
